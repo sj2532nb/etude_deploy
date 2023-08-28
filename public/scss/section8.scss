@@ -1,0 +1,133 @@
+#section8{
+    width: 100%;
+    background: #fff;
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        position: relative;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            padding: 80px 0 0 0;
+            margin: 0 0 250px 0;
+            .title{
+                width: 100%;
+                text-align: center;
+                span{
+                    img{
+                        width: auto;
+                        margin: 0 0 10px 0;
+                    }
+                }
+                h2{
+                    color: #111;
+                    font-size: 38px;
+                    font-weight: 700;
+                    line-height: 43px;
+                    letter-spacing: -0.76px;
+                    margin: 0 0 26px 0;
+                }
+                button{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 700;
+                    letter-spacing: -0.36px;
+                    padding: 15px 30px;
+                    background: rgba(17, 17, 17, 0.8);
+                    border: 0;
+                    border-radius: 4px;
+                    margin: 0 0 64px 0;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+            }
+            .slide-container{
+                width: 100%;
+                .slide-view{
+                    width: 100%;
+                    overflow: hidden;
+                    .slide-wrap{
+                        width: 100% * 3;
+                        position: relative;
+                        display: flex;
+                        margin: 0 0 0 -100%;
+                        .slide{
+                            width: 50%;
+                            position: relative;
+                            display: flex;
+                            .col-gap{
+                                width: 50%;
+                                padding: 0 10px;
+                                position: relative;
+                                a{
+                                    width: 100%;
+                                    height: 100%;
+                                    display: block;
+                                    overflow: hidden;
+                                    border: 0;
+                                    border-radius: 5px;
+                                    position: relative;
+                                    &::after{
+                                        z-index: 2;
+                                        position: absolute;
+                                        content:'';
+                                        bottom: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 31%;
+                                        background: linear-gradient(360deg, #00000066, #00000000);
+                                    }
+                                    img{
+                                        width: 100%;
+                                        transition: all 0.5s;
+                                        &:hover{
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    h3{
+                                        z-index: 3;
+                                        position: absolute;
+                                        bottom: 30px;
+                                        left: 30px;
+                                        font-size: 31px;
+                                        color: #fff;
+                                        line-height: 45px;
+                                        letter-spacing: -0.62px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .prev-btn{
+                position: absolute;
+                top: 70%;
+                left: -50px;
+                transform: rotate(180deg);
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: auto;
+                    margin: 0 0 0 -20px;
+                }
+            }
+            .next-btn{
+                position: absolute;
+                top: 70%;
+                right: -50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: auto;
+                    margin: 0 0 0 -20px;
+                }
+            }
+        }
+    }
+}

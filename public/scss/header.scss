@@ -1,0 +1,667 @@
+#wrap{
+    width: 100%;
+    #header{
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        background: transparent;
+        .container{
+            width: 100%;
+            max-width: 1903px;
+            height: 100px;
+            transition: all 1s;
+            position: relative;
+            .gap{
+                width: 100%;
+                height: 100%;
+                padding: 33px 60px 0 70px;
+                .content{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .left-box{
+                        width: 90%;
+                        display: flex;
+                        .logo{
+                            width: 108px;
+                            height: 45px;
+                            margin: 0 0 21.12px 0;
+                            span{
+                                width: 100%;
+                                a{
+                                    width: 100%;
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                        .nav{
+                            margin: 25px 0 0 75px;
+                            ul{
+                                display: flex;
+                                position: relative;
+                                justify-content: space-between;
+                                a{
+                                    margin: 0 25px 0 0;
+                                    li{
+                                        font-size: 16px;
+                                        font-weight: 700;
+                                        line-height: 26px;
+                                        color: #333;
+                                        padding: 0 10px;
+                                        text-align: center;
+                                        transition: all 0.3s;
+                                        &:hover{
+                                            border-bottom: 1px solid #333;
+                                        }
+                                    }
+                                    &:first-child{
+                                        margin: 0 25px 0 -10px;
+                                    }
+                                    &:nth-child(2){
+                                        position: absolute;
+                                        top: -7px;
+                                        left: 68px;
+                                        li{
+                                            font-size: 10px;
+                                            color: #EF426F;
+                                            font-weight: 600;
+                                            letter-spacing: -0.32px;
+                                            border: 0;
+                                        }
+                                    }
+                                    &:last-child{
+                                        li{
+                                            border: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right-box{
+                        width: 10%;
+                        >span{
+                            width: 100%;
+                            display: flex;
+                            justify-content: right;
+                            align-items: center;
+                            padding: 8px 0 0 0;
+                            >a{
+                                width: 44px;
+                                transition: all 0.25s;
+                                &:hover{
+                                    opacity: 0.7;
+                                }
+                                &:first-child{
+                                    img{
+                                        margin: 0 0 0 6px;
+                                        width: auto;
+                                    }
+                                }
+                                &.fullmenu-btn{
+                                    height: 44px;
+                                    padding: 6px 0 0 0;
+                                    transition: all 1s;
+                                    i{
+                                        display: block;
+                                        width: 21px;
+                                        height: 2px;
+                                        background: #333;
+                                        margin: 7px 11px;
+                                    }
+                                    &.on{
+                                        .line1{
+                                            width: 28px;
+                                            transform: rotate(45deg);
+                                            margin: 16px 0 0 8px;
+                                        }
+                                        .line2{
+                                            display: none;
+                                        }
+                                        .line3{
+                                            width: 28px;
+                                            transform: rotate(-45deg);
+                                            margin: -2px 0 0 8px;
+                                        }
+                                    }
+                                }
+                            }
+                            .search-container{
+                                position: absolute;
+                                z-index: 300;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 395px;
+                                background: rgba(255, 255, 255, 0.5);
+                                backdrop-filter: blur(12px);
+                                display: none;
+                                .search-gap{
+                                    width: 100%;
+                                    padding: 22px 60px 0 60px;
+                                    margin: 0 0 85px 0;
+                                    .search-content{
+                                        width: 100%;
+                                        .search-top{
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            a{
+                                                &:first-child{
+                                                    width: 108px;
+                                                    height: 45px;
+                                                    img{
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        margin: 0;
+                                                    }
+                                                }
+                                                &:last-child{
+                                                    position: absolute;
+                                                    top: 43px;
+                                                    right: 46px;
+                                                    img{
+                                                        width: 44px;
+                                                        height: 44px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .search-middle{
+                                            width: 100%;
+                                            text-align: center;
+                                            h2{
+                                                font-size: 29px;
+                                                font-weight: 700;
+                                                letter-spacing: -0.58px;
+                                                color: #191919;
+                                                margin: 80px 0 30px 0;
+                                            }
+                                            .search-box{
+                                                width: 100%;
+                                                label{
+                                                    position: relative;
+                                                    padding: 0 0 0 15px;
+                                                    input{
+                                                        width: 1000px;
+                                                        height: 41px;
+                                                        padding: 15px 40px 10px 15px;
+                                                        background: rgba(231, 232, 234, 0.5);
+                                                        color: #111;
+                                                        font-size: 15px;
+                                                        border: 0;
+                                                        border-radius: 10px;
+                                                        outline: none;
+                                                        &::placeholder{
+                                                            font-size: 14px;
+                                                            font-weight: 600;
+                                                        }
+                                                    }
+                                                    button{
+                                                        position: absolute;
+                                                        top: -7px;
+                                                        right: 1px;
+                                                        width: 40px;
+                                                        height: 40px;
+                                                        background: transparent;
+                                                        border: 0;
+                                                        cursor: pointer;
+                                                        img{
+                                                            width: 100%;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .search-bottom{
+                                            width: 100%;
+                                            ul{
+                                                width: 100%;
+                                                height: 32px;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                margin: 32px 0 0 8px;
+                                                li{
+                                                    height: 100%;
+                                                    margin: 0 12px;
+                                                    h3{
+                                                        font-size: 25px;
+                                                        letter-spacing: -0.5px;
+                                                        line-height: 24px;
+                                                        color: #000;
+                                                        span{
+                                                            font-weight: 200;
+                                                        }
+                                                        strong{
+                                                            font-weight: 600;
+                                                        }
+                                                    }
+                                                    a{
+                                                        display: block;
+                                                        height: 32px;
+                                                        border: 1px solid rgba(166, 166, 166, 0.5);
+                                                        border-radius: 30px;
+                                                        padding: 2px 16px;
+                                                        color: #111;
+                                                        font-size: 16px;
+                                                        letter-spacing: -0.32;
+                                                        line-height: 24px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.on{
+                                    display: block;
+                                }
+                            }
+                            .fullmenu-container{
+                                z-index: 200;
+                                display: none;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                background: linear-gradient(180deg, rgba(245, 226, 226, 0.65), rgba(242, 198, 207, 0.65));
+                                backdrop-filter: blur(12px);
+                                width: 100%;
+                                max-width: 1903px;
+                                margin: 0 auto;
+                                .fullmenu-gap{
+                                    width: 100%;
+                                    height: 100%;
+                                    .fullmenu-header{
+                                        width: 100%;
+                                        position: fixed;
+                                        background: transparent;
+                                        .fullmenu-header-container{
+                                            width: 100%;
+                                            max-width: 1903px;
+                                            height: 100px;
+                                            position: relative;
+                                            .fullmenu-header-gap{
+                                                width: 100%;
+                                                height: 100%;
+                                                padding: 33px 60px 0 70px;
+                                                .fullmenu-header-content{
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    .fullmenu-header-left-box{
+                                                        width: 90%;
+                                                        display: flex;
+                                                        .fullmenu-header-logo{
+                                                            width: 108px;
+                                                            height: 45px;
+                                                            margin: 0 0 21.12px 0;
+                                                            span{
+                                                                width: 100%;
+                                                                a{
+                                                                    width: 100%;
+                                                                    img{
+                                                                        width: 100%;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        .fullmenu-header-nav{
+                                                            margin: 25px 0 0 75px;
+                                                            ul{
+                                                                display: flex;
+                                                                position: relative;
+                                                                justify-content: space-between;
+                                                                a{
+                                                                    margin: 0 25px 0 0;
+                                                                    li{
+                                                                        font-size: 16px;
+                                                                        font-weight: 700;
+                                                                        line-height: 26px;
+                                                                        color: #333;
+                                                                        padding: 0 10px;
+                                                                        text-align: center;
+                                                                        transition: all 0.3s;
+                                                                        &:hover{
+                                                                            border-bottom: 1px solid #333;
+                                                                        }
+                                                                    }
+                                                                    &:first-child{
+                                                                        margin: 0 25px 0 -10px;
+                                                                    }
+                                                                    &:nth-child(2){
+                                                                        position: absolute;
+                                                                        top: -7px;
+                                                                        left: 68px;
+                                                                        li{
+                                                                            font-size: 10px;
+                                                                            color: #EF426F;
+                                                                            font-weight: 600;
+                                                                            letter-spacing: -0.32px;
+                                                                            border: 0;
+                                                                        }
+                                                                    }
+                                                                    &:last-child{
+                                                                        li{
+                                                                            border: 0;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .fullmenu-header-right-box{
+                                                        width: 10%;
+                                                        >span{
+                                                            width: 100%;
+                                                            display: flex;
+                                                            justify-content: right;
+                                                            align-items: center;
+                                                            padding: 8px 0 0 0;
+                                                            >a{
+                                                                width: 44px;
+                                                                transition: all 0.25s;
+                                                                &:hover{
+                                                                    opacity: 0.7;
+                                                                }
+                                                                &:first-child{
+                                                                    img{
+                                                                        margin: 0 0 0 6px;
+                                                                        width: auto;
+                                                                    }
+                                                                }
+                                                                &:last-child{
+                                                                    height: 44px;
+                                                                    padding: 6px 0 0 0;
+                                                                    transition: all 1s;
+                                                                    i{
+                                                                        display: block;
+                                                                        width: 21px;
+                                                                        height: 2px;
+                                                                        background: #333;
+                                                                        margin: 7px 11px;
+                                                                    }
+                                                                    &.on{
+                                                                        .fullmenu-line1{
+                                                                            width: 28px;
+                                                                            transform: rotate(45deg);
+                                                                            margin: 16px 0 0 8px;
+                                                                        }
+                                                                        .fullmenu-line2{
+                                                                            display: none;
+                                                                        }
+                                                                        .fullmenu-line3{
+                                                                            width: 28px;
+                                                                            transform: rotate(-45deg);
+                                                                            margin: -2px 0 0 8px;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            .search-container{
+                                                                position: absolute;
+                                                                top: 0;
+                                                                left: 0;
+                                                                width: 100%;
+                                                                height: 395px;
+                                                                background: rgba(255, 255, 255, 0.5);
+                                                                backdrop-filter: blur(12px);
+                                                                display: none;
+                                                                .search-gap{
+                                                                    width: 100%;
+                                                                    padding: 22px 60px 0 60px;
+                                                                    margin: 0 0 85px 0;
+                                                                    .search-content{
+                                                                        width: 100%;
+                                                                        .search-top{
+                                                                            width: 100%;
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            a{
+                                                                                &:first-child{
+                                                                                    width: 108px;
+                                                                                    height: 45px;
+                                                                                    img{
+                                                                                        width: 100%;
+                                                                                        height: 100%;
+                                                                                        margin: 0;
+                                                                                    }
+                                                                                }
+                                                                                &:last-child{
+                                                                                    position: absolute;
+                                                                                    top: 43px;
+                                                                                    right: 46px;
+                                                                                    img{
+                                                                                        width: 44px;
+                                                                                        height: 44px;
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                        .search-middle{
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                            h2{
+                                                                                font-size: 29px;
+                                                                                font-weight: 700;
+                                                                                letter-spacing: -0.58px;
+                                                                                color: #191919;
+                                                                                margin: 80px 0 30px 0;
+                                                                            }
+                                                                            .search-box{
+                                                                                width: 100%;
+                                                                                label{
+                                                                                    position: relative;
+                                                                                    padding: 0 0 0 15px;
+                                                                                    input{
+                                                                                        width: 1000px;
+                                                                                        height: 41px;
+                                                                                        padding: 15px 40px 10px 15px;
+                                                                                        background: rgba(231, 232, 234, 0.5);
+                                                                                        color: #111;
+                                                                                        font-size: 15px;
+                                                                                        border: 0;
+                                                                                        border-radius: 10px;
+                                                                                        outline: none;
+                                                                                        &::placeholder{
+                                                                                            font-size: 14px;
+                                                                                            font-weight: 600;
+                                                                                        }
+                                                                                    }
+                                                                                    button{
+                                                                                        position: absolute;
+                                                                                        top: -7px;
+                                                                                        right: 1px;
+                                                                                        width: 40px;
+                                                                                        height: 40px;
+                                                                                        background: transparent;
+                                                                                        border: 0;
+                                                                                        cursor: pointer;
+                                                                                        img{
+                                                                                            width: 100%;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                        .search-bottom{
+                                                                            width: 100%;
+                                                                            ul{
+                                                                                width: 100%;
+                                                                                height: 32px;
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                                margin: 32px 0 0 8px;
+                                                                                li{
+                                                                                    height: 100%;
+                                                                                    margin: 0 12px;
+                                                                                    h3{
+                                                                                        font-size: 25px;
+                                                                                        letter-spacing: -0.5px;
+                                                                                        line-height: 24px;
+                                                                                        color: #000;
+                                                                                        span{
+                                                                                            font-weight: 200;
+                                                                                        }
+                                                                                        strong{
+                                                                                            font-weight: 600;
+                                                                                        }
+                                                                                    }
+                                                                                    a{
+                                                                                        display: block;
+                                                                                        height: 32px;
+                                                                                        border: 1px solid rgba(166, 166, 166, 0.5);
+                                                                                        border-radius: 30px;
+                                                                                        padding: 2px 16px;
+                                                                                        color: #111;
+                                                                                        font-size: 16px;
+                                                                                        letter-spacing: -0.32;
+                                                                                        line-height: 24px;
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                                &.on{
+                                                                    display: block;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .fullmenu-content{
+                                        width: 100%;
+                                        height: 100vh;
+                                        display: flex;
+                                        align-items: center;
+                                        ul{
+                                            width: 100%;
+                                            padding: 200px 0;
+                                            li{
+                                                width: 100%;
+                                                text-align: right;
+                                                padding: 0 50% 1vh 0;
+                                                a{
+                                                    color: #111;
+                                                    font-size: 3vh;
+                                                    font-weight: 700;
+                                                    letter-spacing: -0.4744px;
+                                                    line-height: 5vh;
+                                                    &:hover{
+                                                        border-bottom: 1px solid #111;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .fullmenu-footer{
+                                        position: absolute;
+                                        bottom: 7%;
+                                        left: 7%;
+                                        width: 300px;
+                                        height: 5.5vh;
+                                        background: #fff;
+                                        border: 1px solid #a6a6a6;
+                                        border-radius: 10px;
+                                        transition: all 1s;
+                                        ul{
+                                            display: none;
+                                            position: absolute;
+                                            bottom: 49px;
+                                            left: 0;
+                                            width: 100%;
+                                            background: #fff;
+                                            border: 1px solid #a6a6a6;
+                                            border-top-left-radius: 10px;
+                                            border-top-right-radius: 10px;
+                                            li{
+                                                width: 100%;
+                                                height: 100%;
+                                                a{
+                                                    display: block;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    text-align: left;
+                                                    padding: 11px 16px 11px 97px;
+                                                    font-size: 2vh;
+                                                    line-height: 4vh;
+                                                    color: #111;
+                                                }
+                                            }
+                                        }
+                                        a{
+                                            width: 100%;
+                                            height: 100%;
+                                            display: block;
+                                            span{
+                                                display: flex;
+                                                justify-content: space-between;
+                                                align-items: center;
+                                                padding: 0 15px 0 25px;
+                                                p{
+                                                    font-size: 10px;
+                                                    font-style: italic;
+                                                    font-weight: 500;
+                                                    line-height: 12px;
+                                                    color: #777;
+                                                    &:nth-child(2){
+                                                        font-size: 2vh;
+                                                        line-height: 5.5vh;
+                                                        font-style: normal;
+                                                        font-weight: 400;
+                                                        color: #111;
+                                                        margin: 0 0 0 -10px;
+                                                    }
+                                                }
+                                                img{
+                                                    width: auto;
+                                                }
+                                            }
+                                        }
+                                        &.on{
+                                            background: #f3f3f3;
+                                            border-top-left-radius: 0;
+                                            border-top-right-radius: 0;
+                                            ul{
+                                                display: block;
+                                            }
+                                            a{
+                                                span{
+                                                    p{
+                                                        &:nth-child(2){
+                                                            font-size: 0;
+                                                        }
+                                                    }
+                                                    img{
+                                                        transform: rotate(180deg);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.on{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.on{
+                background: rgba(255, 255, 255, 0.7);
+                // backdrop-filter: blur(3px);
+            }
+        }
+    }
+}

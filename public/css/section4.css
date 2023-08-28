@@ -1,0 +1,273 @@
+#section4 {
+  width: 100%;
+}
+#section4 .container {
+  width: 100%;
+  max-width: 1903px;
+  margin: 0 auto;
+}
+#section4 .container .gap {
+  width: 100%;
+  padding: 64px 0 60px 0;
+}
+#section4 .container .gap .title {
+  width: 100%;
+  text-align: center;
+}
+#section4 .container .gap .title span img {
+  width: auto;
+  margin: 0 0 10px 0;
+}
+#section4 .container .gap .title h2 {
+  color: #111;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: -0.76px;
+  margin: 0 0 26px 0;
+}
+#section4 .container .gap .title p {
+  color: #111;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+}
+#section4 .container .gap .title button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  padding: 15px 30px;
+  background: rgba(17, 17, 17, 0.8);
+  border: 0;
+  border-radius: 4px;
+  margin: 30px 0 95px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#section4 .container .gap .title button:hover {
+  opacity: 0.8;
+}
+#section4 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#section4 .container .gap .content .left-box {
+  width: 50%;
+  max-height: 1075.9px;
+  overflow: hidden;
+  background: url(../img/EP01_002_main_playwithETUDE.jpg) no-repeat 50% 50%;
+  background-size: 100%;
+  border: 0;
+  border-radius: 5px;
+}
+#section4 .container .gap .content .right-box {
+  width: 50%;
+  padding: 0 78px 0 34px;
+}
+#section4 .container .gap .content .right-box .r-top-box,
+#section4 .container .gap .content .right-box .r-bottom-box {
+  width: 100%;
+  display: flex;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box {
+  width: 50%;
+  margin: 0 12px 5px 12px;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box > span,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box > span,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box > span,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box > span,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box > span,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box > span,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box > span,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box > span {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box > span a,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box > span a,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box > span a,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box > span a,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box > span a,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box > span a,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box > span a,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box > span a {
+  width: 100%;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box > span a .img1,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box > span a .img1,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box > span a .img1,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box > span a .img1,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box > span a .img1,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box > span a .img1,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box > span a .img1,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box > span a .img1 {
+  width: 100%;
+  display: block;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box > span a .img2,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box > span a .img2,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box > span a .img2,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box > span a .img2,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box > span a .img2,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box > span a .img2,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box > span a .img2,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box > span a .img2 {
+  width: 100%;
+  display: none;
+  opacity: 0.3;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box > span:hover a .img1,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box > span:hover a .img1,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box > span:hover a .img1,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box > span:hover a .img1,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box > span:hover a .img1,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box > span:hover a .img1,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box > span:hover a .img1,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box > span:hover a .img1 {
+  display: none;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box > span:hover a .img2,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box > span:hover a .img2,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box > span:hover a .img2,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box > span:hover a .img2,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box > span:hover a .img2,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box > span:hover a .img2,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box > span:hover a .img2,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box > span:hover a .img2 {
+  display: block;
+  transition: all 1s;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box > span:hover a .img2:hover,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box > span:hover a .img2:hover,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box > span:hover a .img2:hover,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box > span:hover a .img2:hover,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box > span:hover a .img2:hover,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box > span:hover a .img2:hover,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box > span:hover a .img2:hover,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box > span:hover a .img2:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box div,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box div,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box div,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box div,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box div,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box div,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box div,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box div {
+  width: 100%;
+  padding: 15px 20px;
+  background: #fafafa;
+  border: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box div p,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box div p,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box div p,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box div p,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box div p,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box div p,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box div p,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box div p {
+  font-size: 14px;
+  color: #777;
+  line-height: 22.4px;
+  letter-spacing: -0.28px;
+  margin: 0 0 2px 0;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box div h3 a,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box div h3 a,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box div h3 a,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box div h3 a,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box div h3 a,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box div h3 a,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box div h3 a,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box div h3 a {
+  font-size: 18px;
+  color: #111;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+  line-height: 22px;
+  transition: all 0.3s;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box div h3 a:hover,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box div h3 a:hover,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box div h3 a:hover,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box div h3 a:hover,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box div h3 a:hover,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box div h3 a:hover,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box div h3 a:hover,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box div h3 a:hover {
+  color: #777;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box div h4,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box div h4,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box div h4,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box div h4,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box div h4,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box div h4,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box div h4,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box div h4 {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 1px 12px;
+  margin: 16.4px 0 0 0;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box div h4 strong,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box div h4 strong,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box div h4 strong,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box div h4 strong,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box div h4 strong,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box div h4 strong,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box div h4 strong,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box div h4 strong {
+  font-size: 17px;
+  color: #111;
+  font-weight: 600;
+  letter-spacing: -0.36px;
+  line-height: 30px;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box div h4 span,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box div h4 span,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box div h4 span,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box div h4 span,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box div h4 span,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box div h4 span,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box div h4 span,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box div h4 span {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.28px;
+  line-height: 30px;
+  color: #111;
+}
+#section4 .container .gap .content .right-box .r-top-box .r-top-left-box.r-bottom-right-box div h4,
+#section4 .container .gap .content .right-box .r-top-box .r-top-right-box.r-bottom-right-box div h4,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-left-box.r-bottom-right-box div h4,
+#section4 .container .gap .content .right-box .r-top-box .r-bottom-right-box.r-bottom-right-box div h4,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-left-box.r-bottom-right-box div h4,
+#section4 .container .gap .content .right-box .r-bottom-box .r-top-right-box.r-bottom-right-box div h4,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-left-box.r-bottom-right-box div h4,
+#section4 .container .gap .content .right-box .r-bottom-box .r-bottom-right-box.r-bottom-right-box div h4 {
+  margin: 16px 0 0 0;
+}
+#section4 .container hr {
+  height: 1px;
+  border: 0;
+  background: rgba(166, 166, 166, 0.5);
+  margin: 0 102px;
+}

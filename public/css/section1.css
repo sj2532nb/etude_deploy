@@ -1,0 +1,101 @@
+#section1 {
+  width: 100%;
+}
+#section1 .container {
+  width: 100%;
+}
+#section1 .container .slide-container {
+  width: 100%;
+  position: relative;
+}
+#section1 .container .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#section1 .container .slide-container .slide-view .slide-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url() no-repeat 50% 50%;
+  background-size: cover;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide.slide1 {
+  background-image: url(../img/playlist02_Kazuha_PC_main.jpg);
+  z-index: 8;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide.slide2 {
+  background-image: url(../img/playlist04_Kazuha_PC_main.jpg);
+  z-index: 7;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide.slide3 {
+  background-image: url(../img/playlist03_Kazuha_PC_main.jpg);
+  z-index: 6;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide.slide4 {
+  background-image: url(../img/playlist01_Kazuha_PC_main.jpg);
+  z-index: 5;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide.slide5 {
+  background-image: url(../img/1920x950.jpg);
+  z-index: 4;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide.slide6 {
+  background-image: url(../img/contour_main_PC.jpg);
+  z-index: 3;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide.slide7 {
+  background-image: url(../img/bt21_main_PC.jpg);
+  z-index: 2;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide.slide8 {
+  background-image: url(../img/sun_water2_main_PC.jpg);
+  z-index: 1;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide a .title {
+  position: absolute;
+  bottom: 174px;
+  left: 140px;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide a .title h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: -1px;
+  padding: 0 0 15px 0;
+}
+#section1 .container .slide-container .slide-view .slide-wrap .slide a .title h2 {
+  font-size: 17px;
+  color: #333;
+  letter-spacing: -0.34px;
+}
+#section1 .container .page-btn-box {
+  z-index: 10;
+  position: absolute;
+  bottom: 85px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0 130px;
+}
+#section1 .container .page-btn-box span a {
+  width: 12.5%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+#section1 .container .page-btn-box span a.on {
+  height: 3px;
+  background: #fff;
+}

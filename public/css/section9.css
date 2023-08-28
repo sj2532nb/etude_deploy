@@ -1,0 +1,15 @@
+#section9 {
+  width: 100%;
+  background: #9c9;
+}
+#section9 .container {
+  width: 100%;
+  max-width: 1903px;
+  height: 500px;
+}
+#section9 .container .gap {
+  width: 100%;
+}
+#section9 .container .gap .content {
+  width: 100%;
+}

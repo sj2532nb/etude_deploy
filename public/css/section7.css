@@ -1,0 +1,150 @@
+#section7 {
+  width: 100%;
+  background: #fff;
+  position: relative;
+}
+#section7::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(#F5E2E2, #F2C6CF);
+}
+#section7 .container {
+  width: 100%;
+  max-width: 1903px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+#section7 .container .gap {
+  width: 100%;
+  padding: 120px 0;
+}
+#section7 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#section7 .container .gap .content .left-content {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  padding: 0 120px 0 0;
+}
+#section7 .container .gap .content .left-content .tiktok-img {
+  text-align: right;
+  position: relative;
+}
+#section7 .container .gap .content .left-content .tiktok-img h2 {
+  position: absolute;
+  top: 140px;
+  right: 243px;
+  transform: rotate(-90deg);
+  font-size: 30px;
+  color: #111;
+  letter-spacing: -0.6px;
+  line-height: 49px;
+  width: 300px;
+}
+#section7 .container .gap .content .left-content .tiktok-img h2 span {
+  font-weight: 200;
+}
+#section7 .container .gap .content .left-content .tiktok-img h2 strong {
+  font-weight: 600;
+}
+#section7 .container .gap .content .left-content .tiktok-img a {
+  position: relative;
+}
+#section7 .container .gap .content .left-content .tiktok-img a img {
+  width: auto;
+}
+#section7 .container .gap .content .left-content .tiktok-img a img:last-child {
+  position: absolute;
+  top: -15px;
+  left: 42%;
+  width: auto;
+}
+#section7 .container .gap .content .left-content .tiktok-img h3 {
+  color: #111;
+  font-size: 38px;
+  font-weight: 200;
+  letter-spacing: -0.76px;
+  line-height: 56px;
+}
+#section7 .container .gap .content .left-content .tiktok-img h4 {
+  color: #111;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: -0.76px;
+  line-height: 56px;
+}
+#section7 .container .gap .content .right-content {
+  width: 545px;
+}
+#section7 .container .gap .content .right-content .icon-box {
+  width: 100%;
+  padding: 0 10px 0 0;
+}
+#section7 .container .gap .content .right-content .icon-box a {
+  display: block;
+  text-align: right;
+  padding: 12px 0 12px 0;
+}
+#section7 .container .gap .content .right-content .icon-box a img {
+  width: auto;
+}
+#section7 .container .gap .content .right-content .icon-box a:first-child {
+  padding: 0 0 12px 0;
+}
+#section7 .container .gap .content .right-content .icon-box a:last-child {
+  padding: 12px 0 0 0;
+}
+#section7 .container .gap .content .right-content .icon-box a:last-child img {
+  height: 38px;
+}
+#section7 .container .gap .content .right-content h2 {
+  font-size: 30px;
+  color: #111;
+  letter-spacing: -0.6px;
+  line-height: 49px;
+  padding: 0 0 10px 0;
+}
+#section7 .container .gap .content .right-content h2 span {
+  font-weight: 200;
+}
+#section7 .container .gap .content .right-content h2 strong {
+  font-weight: 600;
+}
+#section7 .container .gap .content .right-content .slide-container {
+  width: 100%;
+  height: 554px;
+}
+#section7 .container .gap .content .right-content .slide-container .slide-view {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#section7 .container .gap .content .right-content .slide-container .slide-view .slide-wrap {
+  width: 700%;
+  display: flex;
+  position: relative;
+}
+#section7 .container .gap .content .right-content .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  height: 100vh;
+}
+#section7 .container .gap .content .right-content .slide-container .slide-view .slide-wrap .slide div {
+  width: auto;
+}
+#section7 .container .gap .content .right-content .slide-container .slide-view .slide-wrap .slide div a img {
+  width: 100%;
+}
+#section7 .container hr {
+  height: 1px;
+  border: 0;
+  background: rgba(166, 166, 166, 0.5);
+  margin: 0 102px;
+}

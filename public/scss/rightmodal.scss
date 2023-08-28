@@ -1,0 +1,21 @@
+#rightmodal{
+    z-index: 10;
+    position: fixed;
+    top: 50%;
+    right: -76px;
+    width: 201.812px;
+    height: 50.400px;
+    background: #EF426F;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // display: none;
+    a{
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.32px;
+        line-height: 18px;
+        color: #F5E2E2;
+    }
+}

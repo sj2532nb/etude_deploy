@@ -1,0 +1,177 @@
+#section4{
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1903px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            padding: 64px 0 60px 0;
+            .title{
+                width: 100%;
+                text-align: center;
+                span{
+                    img{
+                        width: auto;
+                        margin: 0 0 10px 0;
+                    }
+                }
+                h2{
+                    color: #111;
+                    font-size: 38px;
+                    font-weight: 700;
+                    line-height: 43px;
+                    letter-spacing: -0.76px;
+                    margin: 0 0 26px 0;
+                }
+                p{
+                    color: #111;
+                    font-size: 16px;
+                    line-height: 25.6px;
+                    letter-spacing: -0.32px;
+                }
+                button{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 700;
+                    letter-spacing: -0.36px;
+                    padding: 15px 30px;
+                    background: rgba(17, 17, 17, 0.8);
+                    border: 0;
+                    border-radius: 4px;
+                    margin: 30px 0 95px 0;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+            }
+            .content{
+                width: 100%;
+                display: flex;
+                .left-box{
+                    width: 50%;
+                    max-height: 1075.9px;
+                    overflow: hidden;
+                    background: url(../img/EP01_002_main_playwithETUDE.jpg) no-repeat 50% 50%;
+                    background-size: 100%;
+                    border: 0;
+                    border-radius: 5px;
+                }
+                .right-box{
+                    width: 50%;
+                    padding: 0 78px 0 34px;
+                    .r-top-box,
+                    .r-bottom-box{
+                        width: 100%;
+                        display: flex;
+
+                        .r-top-left-box,
+                        .r-top-right-box,
+                        .r-bottom-left-box,
+                        .r-bottom-right-box{
+                            width: 50%;
+                            margin: 0 12px 5px 12px;
+                            >span{
+                                display: block;
+                                width: 100%;
+                                border-top-left-radius: 5px;
+                                border-top-right-radius: 5px;
+                                overflow: hidden;
+                                a{
+                                    width: 100%;
+                                    .img1{
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    .img2{
+                                        width: 100%;
+                                        display: none;
+                                        opacity: 0.3;
+                                    }
+                                }
+                                &:hover{
+                                    a{
+                                        .img1{
+                                            display: none;
+                                        }
+                                        .img2{
+                                            display: block;
+                                            transition: all 1s;
+                                            &:hover{
+                                                opacity: 1;
+                                                transform: scale(1.1);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            div{
+                                width: 100%;
+                                padding: 15px 20px;
+                                background: #fafafa;
+                                border: 0;
+                                border-bottom-left-radius: 5px;
+                                border-bottom-right-radius: 5px;
+                                p{
+                                    font-size: 14px;
+                                    color: #777;
+                                    line-height: 22.4px;
+                                    letter-spacing: -0.28px;
+                                    margin: 0 0 2px 0;
+                                }
+                                h3{
+                                    a{
+                                        font-size: 18px;
+                                        color: #111;
+                                        font-weight: 500;
+                                        letter-spacing: -0.36px;
+                                        line-height: 22px;
+                                        transition: all 0.3s;
+                                        &:hover{
+                                            color: #777;
+                                        }
+                                    }
+                                }
+                                h4{
+                                    border: 1px solid #d9d9d9;
+                                    background: #fff;
+                                    padding: 1px 12px;
+                                    margin: 16.4px 0 0 0;
+                                    strong{
+                                        font-size: 17px;
+                                        color: #111;
+                                        font-weight: 600;
+                                        letter-spacing: -0.36px;
+                                        line-height: 30px;
+                                    }
+                                    span{
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        letter-spacing: -0.28px;
+                                        line-height: 30px;
+                                        color: #111;
+                                    }
+                                }
+                            }
+                            &.r-bottom-right-box{
+                                div{
+                                    h4{
+                                        margin: 16px 0 0 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        hr{
+            height: 1px;
+            border: 0;
+            background: rgba(166, 166, 166, 0.5);
+            margin: 0 102px;
+        }
+    }
+}

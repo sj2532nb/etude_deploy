@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/etude_deploy/static/js/main.6474718c.js",
+    "index.html": "/etude_deploy/index.html",
+    "main.6474718c.js.map": "/etude_deploy/static/js/main.6474718c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6474718c.js"
+  ]
+}
